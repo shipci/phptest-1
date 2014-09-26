@@ -16,3 +16,6 @@ script:
  # - ./vendor/bin/phpunit 
   -  phpunit --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage test/unit/
 
+branches:
+ only:
+  - master
